@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin
+    id="ai4mbse"
+    name="AI4MBSE"
+    version="1.0"
+    provider-name="AI4MBSE Development Team"
+    class="ai4mbse.Main">
+
+    <requires>
+        <api version="1.2"/>
+    </requires>
+
+    <runtime>
+        <library name="AI4MBSE.jar"/>
+    </runtime>
+</plugin>

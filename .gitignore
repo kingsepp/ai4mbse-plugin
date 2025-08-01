@@ -1,0 +1,26 @@
+# Build-Artefakte
+/build/
+/target/
+*.jar
+*.class
+
+# IDE-Dateien
+.vscode/
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# OS-Dateien
+.DS_Store
+Thumbs.db
+
+# Lokale Konfiguration
+local.properties
+
+# Logs
+*.log
+
+# Temporäre Dateien
+*.tmp
+*.temp
