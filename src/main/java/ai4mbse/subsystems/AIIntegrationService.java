@@ -34,7 +34,7 @@ public class AIIntegrationService {
     
     /** Standard-URL für die Gemini API */
     private static final String API_URL = System.getenv().getOrDefault("GEMINI_API_URL",
-        "https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash-latest:generateContent");
+        "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent");
     
     /** Timeout für HTTP-Verbindungen in Millisekunden */
     private static final int TIMEOUT = 60000;
@@ -210,7 +210,7 @@ public class AIIntegrationService {
 class GeminiClient {
     /** Standard-URL für die Gemini API */
     private static final String API_URL = System.getenv().getOrDefault("GEMINI_API_URL",
-        "https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash-latest:generateContent");
+        "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent");
     
     /** Timeout für HTTP-Verbindungen in Millisekunden */
     private static final int TIMEOUT = 60000;
